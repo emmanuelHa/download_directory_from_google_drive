@@ -1,0 +1,12 @@
+{
+    "Study_Dim": {
+        "execute": true,
+        "user_params": {
+            "dimension": true
+        },
+        "user_paths": {},
+        "clean_outputs": {
+            "geometry": false
+        }
+    }
+}

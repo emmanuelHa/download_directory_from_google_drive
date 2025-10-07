@@ -1,0 +1,18 @@
+{
+    "default_working_dir": null,
+    "apps": {
+        "DEMO_APP": {
+            "working_dir": null,
+            "studies": [
+                "Study_Shape",
+                "Study_Velocity"
+            ]
+        },
+        "CANTILEVER_SHEAR_APP": {
+            "working_dir": null,
+            "studies": [
+                "Study_Dim"
+            ]
+        }
+    }
+}

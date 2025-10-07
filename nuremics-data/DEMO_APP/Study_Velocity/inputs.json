@@ -1,0 +1,12 @@
+{
+    "nb_sides": 5,
+    "gravity": -9.81,
+    "mass": 0.1,
+    "plot_title.txt": null,
+    "configs": null,
+    "velocity.json": {
+        "Test1": null,
+        "Test2": null,
+        "Test3": null
+    }
+}

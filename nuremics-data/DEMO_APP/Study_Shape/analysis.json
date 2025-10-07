@@ -1,0 +1,45 @@
+{
+    "points_coordinates.csv": {
+        "Test1": {},
+        "Test2": {},
+        "Test3": {}
+    },
+    "polygon_shape.png": {
+        "Test1": {},
+        "Test2": {},
+        "Test3": {}
+    },
+    "comparison": {
+        "Test1": {
+            "add": true,
+            "color": "red",
+            "linestyle": "None",
+            "linewidth": 2.0,
+            "marker": "D",
+            "markersize": 8,
+            "markevery": 10,
+            "label": "Model"
+        },
+        "Test2": {
+            "add": true,
+            "color": "limegreen",
+            "linestyle": "None",
+            "linewidth": 2.0,
+            "marker": "v",
+            "markersize": 10,
+            "markevery": 10,
+            "label": "Model"
+        },
+        "Test3": {
+            "add": true,
+            "color": "dodgerblue",
+            "linestyle": "None",
+            "linewidth": 2.0,
+            "marker": "X",
+            "markersize": 8,
+            "markevery": 10,
+            "label": "Model"
+        }
+    },
+    "overall_comparisons.png": {}
+}

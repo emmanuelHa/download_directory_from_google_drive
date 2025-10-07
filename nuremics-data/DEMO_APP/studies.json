@@ -1,0 +1,40 @@
+{
+    "Study_Shape": {
+        "execute": true,
+        "user_params": {
+            "nb_sides": true,
+            "gravity": false,
+            "mass": false
+        },
+        "user_paths": {
+            "plot_title.txt": false,
+            "velocity.json": false,
+            "configs": false
+        },
+        "clean_outputs": {
+            "points_coordinates.csv": false,
+            "polygon_shape.png": false,
+            "comparison": false,
+            "overall_comparisons.png": false
+        }
+    },
+    "Study_Velocity": {
+        "execute": true,
+        "user_params": {
+            "nb_sides": false,
+            "gravity": false,
+            "mass": false
+        },
+        "user_paths": {
+            "plot_title.txt": false,
+            "velocity.json": true,
+            "configs": false
+        },
+        "clean_outputs": {
+            "points_coordinates.csv": false,
+            "polygon_shape.png": false,
+            "comparison": false,
+            "overall_comparisons.png": false
+        }
+    }
+}
