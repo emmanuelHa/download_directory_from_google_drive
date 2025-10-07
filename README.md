@@ -6,9 +6,10 @@ pip install google-api-python-client google-auth-oauthlib google-auth-httplib2
 ```
 
 Use a Gmail account and go to Google Cloud console:
-https://console.cloud.google.com/
+https://console.cloud.google.com/  
+
 Then select APIs and services:
-![alt text](<google_cloud_console.png>)
+![alt text](<docs/google_cloud_console.png>)
 
 
 You must also have your Google API Client Credentials file (usually named credentials.json) downloaded from the Google Cloud Console and placed in the same directory as this Python script.
@@ -43,12 +44,14 @@ This step defines what users see when they authorize your app.
 3.  Fill in the required information, such as the **App name** and a **User support email**.
 4.  On the **Scopes** page, click **Add or Remove Scopes**. You must add the scope for the Drive API, such as `.../auth/drive.readonly` (for downloading) or `.../auth/drive` (for full access).
 
-![alt text](<droit_access_files_google_drive.png>)
+
+![alt text](<docs/droit_access_files_google_drive.png>)
 
 5.  Follow the prompts to complete the configuration (Test users, Summary).
 
+
 Add the authorized User Test mail:
-![alt text](userOauthAsTestUsers.png)
+![alt text](docs/userOauthAsTestUsers.png)
 
 ### 4. Create and Download Credentials
 
@@ -60,7 +63,10 @@ Add the authorized User Test mail:
 
 The downloaded file will be named something like `client_secret_ABCDE12345.json`. **Rename it to `credentials.json`** and place it in the same directory as your Python script. The script uses this file to authenticate and generate the `token.json` file.
 
-![alt text](How_to_get_credentials.png)
+
+![alt text](docs/How_to_get_credentials.png)
+
+## Few questions and responses:
 
 ## Is configuring the OAuth Consent Screen mandatory ?
 
@@ -128,7 +134,7 @@ python download_drive_folder.py
 ```
 
 You will get like this:
-![alt text](logs_output.png)
+![alt text](docs/logs_output.png)
 
 
 
