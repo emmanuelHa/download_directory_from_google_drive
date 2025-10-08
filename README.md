@@ -1,3 +1,16 @@
+# DESCRIPTION OF THE PROBLEM
+
+## Imagine you need to get for your application a tree structure of populated files.
+One option could be to store it on your client side.    
+But what if this tree structure is quite specific to a use case?  
+Wouldn't it be better to store it externally?  
+But where?  
+- **we could think of requesting an API endpoint which does the job**,
+- **we could think of using directly s3 and boto3**,
+- **we could think of using directly Google Drive**.
+
+**Let's examine the third option:**
+
 
 You need the Google API client libraries. Install them using pip:
 
