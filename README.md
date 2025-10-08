@@ -9,9 +9,9 @@ But where? We could think of:
 - **using directly s3 and boto3**,
 - **using directly Google Drive**.
 
-**Let's examine the third option:**
+**Let's examine the third option**
 
-
+## Using Google Drive   
 You need the Google API client libraries. Install them using pip:
 
 ```bash
