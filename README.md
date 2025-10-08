@@ -6,8 +6,8 @@ But what if this tree structure is quite specific to a use case?
 Wouldn't it be better to store it externally?  
 But where? We could think of: 
 - **requesting an API endpoint which does the job**,
-- **we could think of using directly s3 and boto3**,
-- **we could think of using directly Google Drive**.
+- **using directly s3 and boto3**,
+- **using directly Google Drive**.
 
 **Let's examine the third option:**
 
